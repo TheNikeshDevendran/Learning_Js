@@ -9,9 +9,12 @@ let logined=true;
 
 //null
 let address=null;
+// when we check null datatype it will be object
 
 //undefined
 let phonenumber;
+// when we check undefined datatype it will be undefined
+
 
 //object
 let data={
@@ -19,4 +22,3 @@ let data={
     2:'two'
 }
 
-                    z
