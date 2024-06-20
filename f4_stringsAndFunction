@@ -14,3 +14,7 @@ console.table([Name.charAt(3) ,//display the element present at particular index
               Name.includes('h'),//it will check wether 'h' is present
               Name.indexOf('N')]//it gives the index of given element 
               )
+
+let urll='https://nikesh%Devendran%2023%github.com%3023'
+console.log(Name.small())//it put our value between tag <small></small>
+console.log(Name.split('%'))
