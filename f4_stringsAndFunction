@@ -1,0 +1,16 @@
+//this is a way of concatinating strings 
+//this methos is called string interpolation 
+//in this method using backticks(` `) placeholder are added 
+//and in that we can add the required contect using this methos concatination occur
+let Name='Nikesh'
+let role='FullstackDeveloper'
+console.log(`Hello i am ${Name.toUpperCase()} and i am a ${role} `)
+
+// string functions
+console.table([Name.charAt(3) ,//display the element present at particular index
+              Name.toLowerCase(),//makes element to smaller alphabets
+              Name.length,//gives total element count
+              Name.substring(0,4),// it breaks the string from given index
+              Name.includes('h'),//it will check wether 'h' is present
+              Name.indexOf('N')]//it gives the index of given element 
+              )
