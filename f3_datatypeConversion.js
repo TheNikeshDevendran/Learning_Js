@@ -47,6 +47,7 @@ console.log(typeof (heros),typeof(obj),typeof(fun))
 
 // typeof value :
 // null:object
+//undefined:undefined
 // Array:Object
 // Object:Object
 // function:function 
