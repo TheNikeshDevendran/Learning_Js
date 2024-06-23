@@ -1,5 +1,5 @@
 //  string
-let name='Nieksh';
+let name='Nikesh';
 
 // number
 let age=19;
