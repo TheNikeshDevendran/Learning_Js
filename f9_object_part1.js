@@ -28,15 +28,24 @@ console.log(employee)
 
 let job={
     "Fullstack":150000,
-    Backend:120000
+    Backend:120000,
+    payslip:function(){
+        console.log(` Payslip=${this.Fullstack+this.Backend}`)
+    }
 }
 
 // here in this job object u can see that i have stored Fullstcak key in string format
 // so we cannot able to acess it like this it will raise an error called " NOT DEFINED "
-console.log(job[Fullstack])
+// console.log(job[Fullstack])
 
 // but we can acess it in this format
-console.log(job.Fullstack)
-console.log(job["Fullstack"])
+// console.log(job.Fullstack)
+// console.log(job["Fullstack"])
+
+job.greet=function(){
+    console.log('hello')
+}
+
+console.log(job.payslip())
 
 
