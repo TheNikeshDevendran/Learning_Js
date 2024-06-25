@@ -43,3 +43,18 @@ const NewObject={...user,...School,...newObject} //spread operator method  the o
 // hasOwnProperty() is used to check wether a partical feature or property does it contain
 // it return result in boolean
 console.log(NewObject.hasOwnProperty('name'))
+
+//destructoring of an of an object
+// if we wan to use an object property evertime we use 
+// sybtax: objectName.propertyName
+// to avoid that we use destructoring
+let student={
+    name:'nikesh',
+    subject:['english','math','science']
+}
+// here if we want to use subject property ever time we use student.name
+// so we basically unpacking the value of an object into an variable
+// so that we can avoid this syntax student.name ans we can directly use
+// the a variable name
+let {subject}=student
+console.log(subject)
