@@ -1,4 +1,4 @@
-let age=20;
+let age=-20;
 // if(age>18){
 //     console.log('age is > 18');
 // }
@@ -9,4 +9,10 @@ let age=20;
 //     console.log('yes same',age==age);
 // }
 
-console.log(age==20? 'yes':'no')
+// console.log(age==20? 'yes':'no')
+if(age){
+    console.log('true');
+}
+else{
+    console.log('false');
+}
