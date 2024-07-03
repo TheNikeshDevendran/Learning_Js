@@ -32,6 +32,6 @@ let Db_response = 10 ?? 50;
 // in place of 10 the null or undefined occur then the value 50 get stored
 
 // console.log(Db_response);
-let db=null ?? function(){ console.log('db given null so set it as demo')}
-
-console.log(db);
+let db=null ?? console.log('db given null so set it as demo')
+// here instead of storing null it stores the console.log statement
+// console.log(db);
