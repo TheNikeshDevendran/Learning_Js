@@ -12,10 +12,10 @@ let i=1;
 // while loop it will first check the condition if its true then it will
 // do the task
 
-// while(i<=10){
-//     console.log(`${Table_of} x ${i} = ${i*Table_of}`);
-//     i++;
-// }
+while(i<=10){
+    console.log(`${Table_of} x ${i} = ${i*Table_of}`);
+    i++;
+}
 
 
 // do while loop will first execute after that it will check
