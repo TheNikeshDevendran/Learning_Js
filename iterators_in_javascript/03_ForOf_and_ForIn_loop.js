@@ -3,8 +3,16 @@ let subjects=['english','math','science']
    subjects.splice(0,subjects.length);
    subjects.length=0  */
    
-for(data of subjects){
-   console.log(data);
+// for(data of subjects){
+//    console.log(data);
+// }
+
+let obj={
+   1:'one',
+   2:'two',
+   3:'three'
 }
 
-
+for(datas of obj){
+   console.log(datas)
+}
