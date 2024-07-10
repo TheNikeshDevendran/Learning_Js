@@ -13,6 +13,6 @@ let obj={
    3:'three'
 }
 
-for(datas of obj){
-   console.log(datas)
+for(datas in obj){
+   console.log(datas+":"+obj[datas])
 }
