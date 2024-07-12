@@ -15,7 +15,7 @@ let num2_result=num2.map((numbers)=>{
 }).map((numbers)=>{
     return numbers*100;
 }).filter((numbers)=>{
-   return numbers<5000;
+   return numbers<5000,index;
 })
 
 console.log(num2_result);
