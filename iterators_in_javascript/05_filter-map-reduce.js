@@ -32,12 +32,17 @@ let employees=[{
     salary:1500000
    }]
 
-let winner=[];
 let qualified=employees.filter((emp)=>{
     return emp.salary>=2000000;
 })
 
-console.log(qualified[0].name);
+let num=[2,4,6,8]
+let num_result=num.filter((data)=>{
+    //   return data+2; here we cannot apply this arithmetic operator
+    return data<=5; //we can use logical operators
+})
+
+console.log(`num_result ${num_result}`);
 
 
 
